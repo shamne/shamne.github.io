@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-size: 3em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../img/coast.jpg');
+}
+
+body, h1 {
+  font-family: Raleway, Helvetica, Arial;
+  font-weight: 100;
+}
+
+h1, .links {
+  font-size: 5vw;
+}
+
+h1 a, .links a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+h1 a:hover, .links a:hover {
+  color: #ddd;
+}
+
+/* Large Screen */
+@media all and (min-width: 960px) {
+  h1, .links {
+    font-size: 1.1em;
+  }
+}
+
+/* Medium Screen */
+@media all and (max-width: 959px) and (min-width: 600px) {
+}
+
+/* Small screen */
+@media all and (max-width: 599px) and (min-width: 50px) {
+}
